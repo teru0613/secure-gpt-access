@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure GPT Access</title>
+    <script>
+        function authenticate() {
+            const password = document.getElementById("password").value;
+            const correctPassword = "manaviva"; // 設定するパスワード
+            if (password === correctPassword) {
+                window.location.href = "https://chatgpt.com/g/g-676a02458db081918bb11ccfff6434de-horiemonaixue-xiao-fu-gang-xiao-tiyatutohotuto"; // GPTsのURL
+            } else {
+                alert("Incorrect password. Please try again.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Protected GPT Access</h1>
+    <p>Enter the password to access the GPT:</p>
+    <input type="password" id="password" placeholder="Enter Password">
+    <button onclick="authenticate()">Submit</button>
+</body>
+</html>
